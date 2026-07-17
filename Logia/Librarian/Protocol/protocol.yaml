@@ -1,0 +1,68 @@
+protocol:
+  id: tok-beta-mirror
+  version: 0.1.0
+  status: provisional
+  governing_document: mirror-protocol.md
+
+jurisdictions:
+  - content
+  - logia/general
+  - logia/librarian
+
+resources:
+  - content
+  - taxonomy
+  - dictionary
+  - general_context
+  - general_instructions
+  - general_architecture
+  - general_governance
+  - librarian_context
+  - librarian_instructions
+  - librarian_precedents
+  - librarian_working_state
+  - entry_registry
+  - relation_registry
+  - readiness_state
+  - repository_manifest
+
+operations:
+  - receive
+  - extrapolate
+  - relate
+  - classify
+  - query
+  - assess_readiness
+  - propose_graft
+  - propose_prune
+  - propose_promotion
+  - ratify
+  - re_impress
+
+lifecycle:
+  - received
+  - digested
+  - extrapolated
+  - related
+  - classified
+  - positioned
+  - assessed
+  - ratified
+  - promoted
+  - impressed
+
+permissions:
+  propose: librarian
+  assess: librarian
+  ratify: authorised_human
+  kernel_ratify: rocco
+  re_impress: designated_workflow
+
+query_filters:
+  - jurisdiction
+  - plane
+  - logia_section
+  - kind
+  - domain
+  - status
+  - readiness
